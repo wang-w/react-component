@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/wang-w/react-component/issues"
   },
-  "homepage": "https://github.com/wang-w/react-component#readme"
+  "homepage": "https://github.com/wang-w/react-component#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.3"
+  },
+  "dependencies": {
+    "typescript": "^3.5.1"
+  }
 }
