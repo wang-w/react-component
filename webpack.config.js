@@ -4,7 +4,9 @@ module.exports = {
     entry: {
         index: './lib/index.tsx'
     },
-    mode: 'production',
+    resolve: {
+        extensions: ['.ts', '.tsx', '.js', '.jsx'],
+    },
     output: {
         path: path.resolve(__dirname, './dist/lib'),
         library: 'reactUI',
@@ -18,10 +20,4 @@ module.exports = {
             }
         ]
     },
-    plugins: [
-        new HtmlWebpackPlugin({
-            title: 'GUUI - React',
-            template: 'index.html'
-        })
-    ]
 }
