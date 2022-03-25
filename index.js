@@ -1,4 +1,4 @@
-const a = 777;
+const a = 888;
 const b = 11555;
 const c = 11666;
 const fn = () => {
