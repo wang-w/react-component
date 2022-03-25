@@ -4,3 +4,4 @@ const c = 11666;
 const fn = () => {
   return 44442
 }
+const d = 'ddd';
