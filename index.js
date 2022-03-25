@@ -6,3 +6,4 @@ const fn = () => {
 }
 const d = 'ddd';
 const e = 'eee';
+const f = 'fff';
