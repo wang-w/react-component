@@ -5,3 +5,4 @@ const fn = () => {
   return 44442
 }
 const d = 'ddd';
+const e = 'eee';
