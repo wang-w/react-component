@@ -1,6 +1,6 @@
 const a = 777;
-const b = 2555;
-const c = 1666;
+const b = 11555;
+const c = 11666;
 const fn = () => {
-  return 4444
+  return 44442
 }
